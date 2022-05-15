@@ -111,6 +111,7 @@ users:
 chain_id: 23
 EOF
 ```
+##Optionnel
 Si vous ne désirez pas utiliser cette clef il faut utiliser celle générée juste au dessus :
 
 ```bash
