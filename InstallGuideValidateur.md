@@ -1,7 +1,16 @@
 
 # Installation Validateur Aptos
 
-Il vous faut de préference un serveur VPS avec un SSD minimum 350 Go
+Comme la blockchain va grossir avec le temps pour le tesnet un disque SSD de 400Go est préférable
+De plus 4vcpu et 8Go de memoire minimum
+
+Pour connaitre la configuration dont vous disposez :
+
+```bash
+lsmem
+cat /proc/cpuinfo | grep processor | wc -l
+```
+
 
 On démarre avec déclaration des variables (copier et coller tout dans le terminal)
 
@@ -53,7 +62,8 @@ rm aptos-cli.zip
 
 ## Création du Validateur
 
-Créez le dossier Workspace
+Créez le répertoire dans lequel tout le moteur du validateur sera installé
+Ici WORKSPACE correspond au repertoire testnet pour info
 
 ```bash
 mkdir ~/$WORKSPACE && cd ~/$WORKSPACE
@@ -83,7 +93,7 @@ aptos genesis set-validator-configuration \
   --full-node-host $PUBLIC_IP:6182
 ```
 
-Génération des clés racines
+Génération de la clef ssh de votre compte root
 
 ```bash
 mkdir keys
@@ -101,6 +111,18 @@ users:
 chain_id: 23
 EOF
 ```
+Si vous ne désirez pas utiliser cette clef il faut utiliser celle générée juste au dessus :
+
+```bash
+cat keys/root.pub
+```
+
+Puis copier cette clef dans le fichier layout.yaml avec la commande :
+
+```bash
+sudo nano layout.yaml
+```
+Pour sortir du mode nano => Control X puis O
 
 Téléchargez le dossier framework
 
