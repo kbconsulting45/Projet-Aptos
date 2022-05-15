@@ -126,6 +126,7 @@ Puis copier cette clef dans le fichier layout.yaml avec la commande :
 sudo nano layout.yaml
 ```
 Pour sortir du mode nano => Control X puis O
+##Fin de la partie Optionnelle
 -------------------------------------------------------------
 
 
