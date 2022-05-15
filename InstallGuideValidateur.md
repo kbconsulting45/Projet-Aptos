@@ -111,6 +111,7 @@ users:
 chain_id: 23
 EOF
 ```
+------------------------------------------------------------
 ##Optionnel
 Si vous ne désirez pas utiliser cette clef il faut utiliser celle générée juste au dessus :
 
@@ -124,6 +125,7 @@ Puis copier cette clef dans le fichier layout.yaml avec la commande :
 sudo nano layout.yaml
 ```
 Pour sortir du mode nano => Control X puis O
+-------------------------------------------------------------
 
 Téléchargez le dossier framework
 
