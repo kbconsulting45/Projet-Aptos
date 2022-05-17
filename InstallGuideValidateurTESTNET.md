@@ -12,7 +12,7 @@ cat /proc/cpuinfo | grep processor | wc -l
 ```
 
 
-On démarre avec déclaration des variables (copier et coller tout dans le terminal)
+On démarre avec déclaration des variables
 
 ```bash
 echo "export WORKSPACE=testnet" >> $HOME/.bash_profile
@@ -20,7 +20,7 @@ echo "export PUBLIC_IP=$(curl -s ifconfig.me)" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
 
-Mis à jour des packages
+Mise à jour des packages
 
 ```bash
 sudo apt update && sudo apt upgrade -y
