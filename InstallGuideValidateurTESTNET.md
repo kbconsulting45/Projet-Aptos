@@ -150,6 +150,20 @@ Et on lance le Docker Compose
 docker compose up -d
 ```
 
+##Pour procéder à l'enregistrement de votre noeud il faut se rendre à l'adresse suivante :
+
+https://community.aptoslabs.com/
+
+Toutes les informations se trouvent dans votre fichier "username.yaml"
+
+Exemple dans mon cas pour lire ces informations vous pouvez taper l'une ou l'autre des 2 commandes ci-dessous :
+
+```bash
+cat /root/testnet/kbconsulting45.yaml
+cat ~/$WORKSPACE/kbconsulting45.yaml
+```
+
+
 Pour toutes les questions: TG: @kbconsulting45
 
 KB
