@@ -93,6 +93,16 @@ aptos genesis set-validator-configuration \
   --full-node-host $PUBLIC_IP:6182
 ```
 
+##EXEMPLE
+
+```bash
+aptos genesis set-validator-configuration \
+  --keys-dir ~/$WORKSPACE --local-repository-dir ~/$WORKSPACE \
+  --username kbconsulting45 \
+  --validator-host 167.34.56.78:6180 \
+  --full-node-host 167.34.56.78:6182
+```
+
 Génération de la clef ssh de votre compte root
 
 ```bash
