@@ -103,6 +103,8 @@ aptos genesis set-validator-configuration \
   --full-node-host 167.34.56.78:6182
 ```
 
+Mettez une adresse differente entre fullnode et vaidateur si vos deux nodes ne sont pas sur le même serveur
+
 Génération de la clef ssh de votre compte root
 
 ```bash
