@@ -162,6 +162,12 @@ Et on lance le Docker Compose
 docker compose up -d
 ```
 
+## Pour vérifier que votre noeud est bien installé
+
+https://aptos-node.info
+
+Entrez votre IP publique et le numero de port 6180 pour le validateur et 6182 pour le fullnode
+
 ##Pour procéder à l'enregistrement de votre noeud il faut se rendre à l'adresse suivante :
 
 https://community.aptoslabs.com/
