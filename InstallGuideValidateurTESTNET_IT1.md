@@ -1,5 +1,5 @@
 
-# Installation Validateur Aptos pour le Testnet
+# Installation Validateur Aptos pour le Testnet Phase IT1
 
 Comme la blockchain va grossir avec le temps pour le tesnet un disque SSD de 400Go est préférable
 De plus 4vcpu et 8Go de memoire minimum
